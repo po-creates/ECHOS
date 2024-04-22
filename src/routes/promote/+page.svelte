@@ -35,8 +35,8 @@
 		<br />
 		Sponsor a <b>plantathon</b> and be part of a <b>sustainable future</b>.
 	</p>
-	<div class="mt-4 space-y-4">
-		<form on:submit|preventDefault={submit}>
+	<div class="mt-4">
+		<form on:submit|preventDefault={submit} class="space-y-4">
 			<Input placeholder="Tesla" title="Company name" name="company_name" />
 			<Textarea
 				placeholder="Include quantity of each as well"

@@ -42,8 +42,8 @@
 		Find any businesses near you that are violating the green policies? Report them here and we will
 		inform the authorities!
 	</p>
-	<div class="mt-4 space-y-4">
-		<form on:submit|preventDefault={submit}>
+	<div class="mt-4">
+		<form on:submit|preventDefault={submit} class="space-y-4">
 			<Input
 				name="address"
 				placeholder="Shop No. 000, locality, City, State"

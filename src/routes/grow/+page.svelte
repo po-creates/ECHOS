@@ -23,7 +23,7 @@
 </script>
 
 <Section>
-	<form on:submit|preventDefault={submit}>
+	<form on:submit|preventDefault={submit} class="space-y-4">
 		<Input name="rainfall" placeholder="rainfall" value="100" />
 		<Input name="temperature" placeholder="temperature" value="20" />
 		<Input name="pH" placeholder="pH" value="7" />
@@ -38,5 +38,5 @@
 			Submit
 		</button>
 	</form>
-	<p>Crop to grow: {suggestion}</p>
+	<p>Plant to grow: {suggestion}</p>
 </Section>

@@ -7,7 +7,8 @@ export default {
 				background: '#1E1E03',
 				primary: '#3D3206',
 				accent: '#F9CD86',
-				text: '#FDEBCE'
+				text: '#FDEBCE',
+				foreground: '#FDEBCE',
 			},
 			fontFamily: {
 				sans: ['Gabriela'],

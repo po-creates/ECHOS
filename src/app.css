@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	@apply text-foreground;
+}
+
+.input,
+.textarea {
+	@apply bg-background;
+}
