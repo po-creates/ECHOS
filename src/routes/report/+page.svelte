@@ -14,7 +14,7 @@
 		const description = formData.get('description');
 		const email = formData.get('email');
 		const phone = formData.get('phone');
-		const personalPhone = formData.get('personal_phone')
+		const personalPhone = formData.get('personal_phone');
 		
 		try {
     const { data, error } = await supabase.from('reports').insert([
@@ -27,9 +27,16 @@
 
     console.log('Submitted successfully:', data);
     
-  } catch (error) {
-    console.error('Error submitting report:', error.message);
+	const success = document.getElementById('success');
+	if (success){
+		succes.textContent = 'Form submitted successfully';
+		success.style.display = 'block';
 	}
+} catch (error) {
+    console.error('Error submitting report:', error.message);
+				}
+	
+	
 	}
 </script>
 
