@@ -25,6 +25,12 @@
 			}
 
 			console.log('Submitted successfully:', data);
+
+			const success = document.getElementById('success');
+			if (success) {
+				success.textContent = 'Form submitted successfully';
+				success.style.display = 'block';
+			}
 		} catch (error) {
 			console.error('Error submitting report:', error.message);
 		}
@@ -65,3 +71,4 @@
 		</form>
 	</div>
 </Section>
+

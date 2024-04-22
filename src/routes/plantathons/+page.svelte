@@ -116,10 +116,20 @@
 </script>
 
 <Section>
-	<div class="p-4 text-lg font-semibold text-center">
+
+	<div class="p-4 text-lg font-semibold text-center section-container">
+	
 		Plantathons are community gatherings where people come together to get their hands dirty and
 		plant trees! These events beautify cities, fight climate change, and promote a connection with
 		nature.
+
+		<style>
+			.section-container {
+			  background-image: url('file:///C:/Users/Pallavi/Desktop/imi.webp');
+			  background-size: cover;
+			}
+		  </style>
+		  
 	</div>
 	<!-- {#each charities as charity} -->
 	<!-- 	<div class="p-2"> -->
