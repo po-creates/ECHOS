@@ -3,6 +3,7 @@
 	import Input from '$lib/components/Input.svelte';
 	import Textarea from '../../lib/components/Textarea.svelte';
 	import Button from '../../lib/components/Button.svelte';
+	import supabase from '$lib/supabase';
 
 	async function submit() {}
 </script>
