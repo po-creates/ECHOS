@@ -5,8 +5,7 @@
 	import Button from '../../lib/components/Button.svelte';
 	import supabase from '$lib/supabase';
 
-	async function submit(event) 
-	{
+	async function submit(event) {
 		event.preventDefault();
 
 		const formData = new FormData(event.target);
@@ -14,22 +13,21 @@
 		const description = formData.get('description');
 		const email = formData.get('email');
 		const phone = formData.get('phone');
-		const personalPhone = formData.get('personal_phone')
-		
-		try {
-    const { data, error } = await supabase.from('reports').insert([
-      { address, description, email, phone, personal_phone: personalPhone }
-    ]);
-    
-    if (error) {
-      throw error;
-    }
+		const personalPhone = formData.get('personal_phone');
 
-    console.log('Submitted successfully:', data);
-    
-  } catch (error) {
-    console.error('Error submitting report:', error.message);
-	}
+		try {
+			const { data, error } = await supabase
+				.from('reports')
+				.insert([{ address, description, email, phone, personal_phone: personalPhone }]);
+
+			if (error) {
+				throw error;
+			}
+
+			console.log('Submitted successfully:', data);
+		} catch (error) {
+			console.error('Error submitting report:', error.message);
+		}
 	}
 </script>
 
@@ -58,7 +56,8 @@
 				title="Your contact number"
 			/>
 
-			<button type = "submit"
+			<button
+				type="submit"
 				class="btn btn-primary bg-accent border-primary text-primary hover:bg-primary hover:text-accent hover:border-primary p-1 px-4 text-sm"
 			>
 				Report
