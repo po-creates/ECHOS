@@ -19,13 +19,12 @@
 		/>
 		<Textarea
 			placeholder="Mention places your company would like to advertise"
-			title="Share your expected promotion material"
+			title="Share your expected outcome"
 		/>
 		<Input placeholder="CEO" title="Your post in the company" />
 		<Input placeholder="Elon Musk" title="Your name" />
-		<Input placeholder="example@example.com" title="Your email" />
-		<Input placeholder="Stays anonymous to the business!" title="Your contact number" />
+		<Input placeholder="elon@tesla.com" title="Your email" />
 
-		<Button>Submit</Button>
+		<Button onclick="alert('Report successfully submitted!')">Submit</Button>
 	</div>
 </Section>
