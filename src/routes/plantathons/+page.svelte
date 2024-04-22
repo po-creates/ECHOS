@@ -7,7 +7,9 @@
 			name: 'Amazon Conservation Team',
 			description:
 				'Partners with indigenous and local communities to protect tropical forests and reinforce traditional culture in the Amazon.',
-			link: 'https://www.amazonconservation.org/'
+			link: 'https://www.amazonconservation.org/',
+			date: '3rd June 2024',
+			location: 'Chennai, India'
 		},
 		{
 			name: 'Nature Conservancy',
@@ -179,6 +181,8 @@
 				<div class="text-2xl font-semibold">{charity.name}</div>
 				<div>{charity.description}</div>
 			</div>
+			<p>{charity.location}</p>
+			<p>{charity.date}</p>
 			<Button href={charity.url}>Join!</Button>
 		</div>
 	{/each}

@@ -7,6 +7,7 @@
 	</div>
 	<div class="flex-none text-text font-semibold gap-4 mr-4">
 		<a href="/grow" class="hover:bg-accent hover:text-primary p-1 rounded-xl">Grow</a>
+		<a href="/chat" class="hover:bg-accent hover:text-primary p-1 rounded-xl">Bot</a>
 		<a href="/plantathons" class="hover:bg-accent hover:text-primary p-1 rounded-xl">Plantathon</a>
 		<a href="/promote" class="hover:bg-accent hover:text-primary p-1 rounded-xl"
 			>Promote your company</a
