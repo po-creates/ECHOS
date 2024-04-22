@@ -5,7 +5,7 @@
 	export { className as class };
 </script>
 
-<div>
+<div class="flex-1">
 	{#if title}
 		<p class="font-bold text-foreground">{title}</p>
 	{/if}
