@@ -10,5 +10,5 @@
 
 .input,
 .textarea {
-	@apply bg-background;
+	@apply bg-background border-primary border-solid;
 }

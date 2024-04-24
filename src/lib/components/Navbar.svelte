@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div class="navbar min-h-14 h-14 bg-background fixed">
+<div class="navbar min-h-14 h-14 bg-background border-b-foreground border-b fixed">
 	<div class="flex-1">
 		<a class="btn btn-ghost text-text text-xl" href="/">E.C.H.O.S</a>
 	</div>

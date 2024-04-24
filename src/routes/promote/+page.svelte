@@ -55,7 +55,7 @@
 			<button
 				class="btn btn-primary bg-accent border-primary text-primary hover:bg-primary hover:text-accent hover:border-primary p-1 px-4 text-sm"
 			>
-				Report
+				Submit
 			</button>
 		</form>
 	</div>
